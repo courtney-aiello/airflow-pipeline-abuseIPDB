@@ -4,10 +4,10 @@
 This project automates threat intelligence gathering using **Apache Airflow** and **AbuseIPDB API**. The DAG fetches malicious IPs, checks their threat scores, and logs high-risk IPs for security monitoring.
 
 ## Features
-✅ Automates fetching malicious IPs from **AbuseIPDB**  
-✅ Logs threat intelligence results to `/opt/airflow/logs/abuseipdb_results.json`  
-✅ Flags **high-risk IPs** based on a configurable threshold  
-✅ Runs as an **Airflow DAG** on a scheduled basis  
+- Automates fetching malicious IPs from **AbuseIPDB**  
+- Logs threat intelligence results to `/opt/airflow/logs/abuseipdb_results.json`  
+- Flags **high-risk IPs** based on a configurable threshold  
+- Runs as an **Airflow DAG** on a scheduled basis  
 
 ## Project Structure
 ```
@@ -45,9 +45,9 @@ cat /opt/airflow/logs/abuseipdb_results.json
 ```
 
 ##  Use Cases
-🔹 Security teams automating **threat intelligence gathering**  
-🔹 SOC analysts needing **scheduled malicious IP checks**  
-🔹 Cybersecurity projects tracking **emerging threats**  
+- Security teams automating **threat intelligence gathering**  
+- SOC analysts needing **scheduled malicious IP checks**  
+- Cybersecurity projects tracking **emerging threats**  
 
 ## License
 This project is licensed under the **Apache 2.0 License**.
