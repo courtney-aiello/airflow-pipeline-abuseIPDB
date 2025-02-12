@@ -60,8 +60,7 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
-    ABUSE_IPDB_API_KEY: "57d3bbeb310ffc79cbdc132a2c743c8e724b88eca2bea453744c1138a0a991ecb9f665ceb002195f"
-
+   
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
