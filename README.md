@@ -22,24 +22,24 @@ This project automates threat intelligence gathering using **Apache Airflow** an
 ```
 
 ## Setup & Deployment
-### **1️⃣ Clone the Repository**
+### **1️ Clone the Repository**
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/airflow-abuseipdb-monitor.git
 cd airflow-abuseipdb-monitor
 ```
 
-### **2️⃣ Set Your API Key**
+### **2️ Set Your API Key**
 Edit `docker-compose.yaml` and add:
 ```yaml
 ABUSE_IPDB_API_KEY: "your_api_key_here"
 ```
 
-### **3️⃣ Start Airflow**
+### **3️ Start Airflow**
 ```bash
 docker-compose up -d
 ```
 
-### **4️⃣ Monitor Results**
+### **4️ Monitor Results**
 ```bash
 cat /opt/airflow/logs/abuseipdb_results.json
 ```
