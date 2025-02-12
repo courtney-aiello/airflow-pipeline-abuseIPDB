@@ -1,0 +1,7 @@
+# Ignore Airflow logs and database files
+logs/
+postgres-db-volume/
+__pycache__/
+.env
+.envrc
+
