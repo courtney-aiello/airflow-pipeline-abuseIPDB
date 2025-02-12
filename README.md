@@ -47,7 +47,40 @@ cat /opt/airflow/logs/abuseipdb_results.json
 ##  Use Cases
 - Security teams automating **threat intelligence gathering**  
 - SOC analysts needing **scheduled malicious IP checks**  
-- Cybersecurity projects tracking **emerging threats**  
+- Cybersecurity projects tracking **emerging threats**
+
+Sample logs:
+[
+    {
+        "ip": "218.92.0.223",
+        "abuse_score": 100,
+        "is_malicious": true,
+        "total_reports": 73904
+    },
+    {
+        "ip": "95.31.39.158",
+        "abuse_score": 100,
+        "is_malicious": true,
+        "total_reports": 495
+    },
+    {
+        "ip": "104.168.46.10",
+        "abuse_score": 100,
+        "is_malicious": true,
+        "total_reports": 7024
+    },
+    {
+        "ip": "157.66.55.149",
+        "abuse_score": 100,
+        "is_malicious": true,
+        "total_reports": 288
+    },
+    {
+        "ip": "64.225.63.104",
+        "abuse_score": 100,
+        "is_malicious": true,
+        "total_reports": 2906
+    },
 
 ## License
 This project is licensed under the **Apache 2.0 License**.
