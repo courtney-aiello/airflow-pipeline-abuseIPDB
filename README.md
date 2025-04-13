@@ -83,6 +83,8 @@ Sample logs:
         "is_malicious": true,
         "total_reports": 2906
     },
+
+
 ⚡ Built with occasional help from ChatGPT for code snippets, debugging, and quick explanations.
 
 ## License
